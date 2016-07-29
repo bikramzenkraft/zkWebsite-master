@@ -1,0 +1,52 @@
+doctype html
+html(lang="en")
+html
+  head
+    title= title
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css')
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js')
+    script(src='/javascripts/docs.js')
+    link(rel='stylesheet', href='https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700')
+  body.general
+    div#wrapper
+      header(class="layoutgeneral #{slug}")
+        div.container
+          div.row
+            div.col-lg-4.col-md-4.col-sm-3.col-xs-12.logo
+              a(href="/"): img(src= "/images/zenkraft_logo.png", class="img-responsive")
+            div.col-lg-8.col-md-8.col-sm-9.col-xs-12.pull-right.fornav
+              div.menus
+                nav.navbar.navbar-default
+                  div.container-fluid
+                    div#bs-example-navbar-collapse-1.collapse.navbar-collapse
+                      ul.nav.navbar-nav
+                        include partials/nav
+              
+
+       div.top
+        
+       div.container
+         div.content
+         .row
+           .col-sm-3
+             ul.docs-menu
+
+               li.head Menu
+               li(class=(slug === 'pricing' ? 'active' : '')): a(href="/pricing") Pricing
+               li(class=(slug === 'customers' ? 'active' : '')): a(href="/customers") Customers
+               li(class=(slug === 'partners' ? 'active' : '')): a(href="/partners") Partners
+               li(class=(slug === 'about' ? 'active' : '')): a(href="/about") About Us
+               li(class=(slug === 'msa' ? 'active' : '')): a(href="/master-subscription-agreement") MSA
+               li(class=(slug === 'privacy' ? 'active' : '')): a(href="/privacy-policy") Privacy Policy
+               
+
+           h1.welcome-head #{title}
+           .col-sm-9.docs-content
+             block content
+
+
+
+      include partials/intercom
+      include partials/analytics
+      script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js')

@@ -1,0 +1,75 @@
+doctype html
+html(lang="en")
+html
+  head
+    title= title
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>{% block page_title %}{% endblock %}</title>
+    <link href="/stylesheets/responsive.css" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/stylesheets/bootstrap-select.css">
+    script(src='//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js')
+    <link rel="stylesheet" href="/styles/jquery.fancybox.css" type="text/css" media="screen" />
+    script(src='/scripts/jquery.fancybox.pack.js')
+    script(src='/scripts/jquery.fancybox-media.js')
+
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css')
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js')
+    script(src='/javascripts/script.js')
+    link(rel='stylesheet', href='https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700')
+  body
+    div#wrapper
+      header(class="hero #{slug}")
+        div.container
+          div.row
+            div.col-lg-4.col-md-4.col-sm-3.col-xs-12.logo
+              a(href="/"): img(src= "/images/zenkraft_logo.png", class="img-responsive")
+            div.col-lg-8.col-md-8.col-sm-9.col-xs-12.pull-right.fornav
+              div.menus
+                nav.navbar.navbar-default
+                  div.container-fluid
+                    div#bs-example-navbar-collapse-1.collapse.navbar-collapse
+                      ul.nav.navbar-nav
+                        include partials/nav
+          div.row
+            block header
+
+
+
+
+      section.mid-container
+        div.integration
+          div.integration-bx
+            div.row
+              block content
+
+           
+
+   
+      footer.ftr-inner
+        div.container
+          div.row
+            div.col-lg-7.col-md-7.col-sm-7.col-xs-12.copy
+              p &copy; Zenkraft Limited - 2016
+              p Company Registration Number: 095320772 
+              p VAT Number: 212352945
+              p UK Office: 88 Wood Street 10th – 11th Floor London EC2V 7RS UK
+              p US Office: 10620 Treena St. Suite 230 San Diego, CA 92131 US
+            div.col-lg-5.col-md-5.col-sm-5.col-xs-12.text-right.ftr-links
+              ul.links
+                  li: a.sub(href="/") Home
+                  li: a.sub(href="/privacy-policy") Privacy Policy
+                  li: a.sub(href="/master-services-agreement") MSA
+                  li: a#intercom(href="#") Contact Us
+              
+
+      include partials/intercom
+      include partials/analytics
+      script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js')
+
+
+
+
+
+

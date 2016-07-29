@@ -1,0 +1,46 @@
+extends ../layout
+block header
+  div.col-lg-12.col-md-12.col-sm-12.col-xs-12.home-hero
+    h1 UPS for Salesforce
+    h3 100% native FedEx, UPS and USPS shipping, tracking, pickups and automation on salesforce.com 
+    div.buttons
+      a.trans Watch 2 minute demo <span class="tick"><img src="/images/icon_tick.svg" alt=" "></span>
+      a.filled Start for Free <span class="tick"><img src="/images/icon_tick.svg" alt=" "></span>
+
+block content
+  div.container
+    div.row
+      div.col-lg-12.col-md-12.col-sm-12.col-xs-12.home-image-slider.product-image
+        img(src="/images/ups_home_page.jpg") 
+  div.container.home-features
+    div.row
+      div.col-lg-4.col-md-4.col-sm-12.col-xs-12
+        h3 Multi Carrier Force.com Shipping
+        p We currently support more than 50 carriers between our 4 apps. Create labels, calculate rates, track shipments and schedule pickups from inside Salesforce.
+      div.col-lg-4.col-md-4.col-sm-12.col-xs-12
+        h3 1-Click Labels &amp; Automated Tracking
+        p Tracking automatically updates itself every hour so you can easily send customised tracking emails or assign tasks. You can also default every shipments field for 1-click shipping
+      div.col-lg-4.col-md-4.col-sm-12.col-xs-12
+        h3 100% Native &amp; Printer Integration
+        p Extend our app with workflows, triggers,Lightening Process Builder, custom fields and integrate shipping with any custom object. You can print directly to your thermal printer via our desktop app.
+  div.container.home-returns
+    div.row
+      div.col-lg-6.col-md-6.col-sm-12.col-xs-12
+        h2 Email RMA Labels
+        p Shipmate for UPS can be setup to automatically send RMA labels out to customers. There is no need to ever include an RMA label in the shipment again.
+      div.col-lg-6.col-md-6.col-sm-12.col-xs-12
+        img(src="/images/email-ups-labels.png")
+  div.container.home-returns
+    div.row
+      div.col-lg-6.col-md-6.col-sm-12.col-xs-12
+        img(src="/images/reporting.png") 
+      div.col-lg-6.col-md-6.col-sm-12.col-xs-12
+        h2 Management Insight With Shipping Reports
+        p With all your shipping data managed on Salesforce CRM, you can audit, reconcile and report on shipping costs with ease.
+         
+  div.natively
+    include ../partials/natively
+  div.container.international-forms
+    include ../partials/intforms
+
+  div.footer

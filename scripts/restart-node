@@ -1,0 +1,3 @@
+#!/bin/bash
+killall -2 node
+exit 0

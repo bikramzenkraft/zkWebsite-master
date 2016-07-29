@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.2 (12043) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_save</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Features-2" sketch:type="MSArtboardGroup" transform="translate(-199.000000, -763.000000)" stroke-linejoin="round">
+            <g id="Rectangle-13-+-Group" sketch:type="MSLayerGroup" transform="translate(200.000000, 601.000000)">
+                <g id="Group" sketch:type="MSShapeGroup">
+                    <g id="Global-Supply-Chain--+-Curabitur-lobortis-i-+-Stroke-5470-+-Stroke-5471-Copy-3" transform="translate(0.000000, 141.000000)">
+                        <g id="icon_save" transform="translate(0.000000, 22.000000)">
+                            <path d="M12,30 L0,30 L0,8 L28,8 L28,12" id="Stroke-5472" stroke="#66655D" stroke-linecap="round"></path>
+                            <path d="M28,8 L0,8 L8,0 L20,0 L28,8 L28,8 Z" id="Stroke-5473" stroke="#66655D" stroke-linecap="round"></path>
+                            <path d="M14,0 L14,8" id="Stroke-5474" stroke="#66655D" stroke-linecap="round"></path>
+                            <path d="M46,32.0312 C46,39.7632 39.73,46.0312 32,46.0312 C24.268,46.0312 18,39.7632 18,32.0312 C18,24.2992 24.268,18.0312 32,18.0312 C39.73,18.0312 46,24.2992 46,32.0312 L46,32.0312 Z" id="Stroke-5475" stroke="#3498DB"></path>
+                            <path d="M28.754,35.1114 C28.754,36.9034 30.208,38.3574 32,38.3574 C33.79,38.3574 35.244,36.9034 35.244,35.1114 C35.244,33.3194 33.79,31.8654 32,31.8654 C30.208,31.8654 28.754,30.4114 28.754,28.6214 C28.754,26.8294 30.208,25.3754 32,25.3754 C33.79,25.3754 35.244,26.8294 35.244,28.6214" id="Stroke-5476" stroke="#3498DB" stroke-linecap="round"></path>
+                            <path d="M32,38.3574 L32,40.5214" id="Stroke-5477" stroke="#66655D" stroke-linecap="round"></path>
+                            <path d="M32,23.211 L32,25.375" id="Stroke-5478" stroke="#66655D" stroke-linecap="round"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

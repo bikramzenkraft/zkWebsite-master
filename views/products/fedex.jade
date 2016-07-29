@@ -1,0 +1,40 @@
+extends ../layout
+block header
+  div.col-lg-12.col-md-12.col-sm-12.col-xs-12.home-hero
+    h1 FedEx for Salesforce
+    h3 100% native FedEx, UPS and USPS shipping, tracking, pickups and automation on salesforce.com 
+    div.buttons
+      a.trans Watch 2 minute demo <span class="tick"><img src="/images/icon_tick.svg" alt=" "></span>
+      a.filled Start for Free <span class="tick"><img src="/images/icon_tick.svg" alt=" "></span>
+
+block content
+  div.container
+    div.row
+      div.col-lg-12.col-md-12.col-sm-12.col-xs-12.home-image-slider.product-image
+        img(src="/images/fedex_home_page.jpg") 
+
+
+  div.container.home-features
+    div.row
+      div.col-lg-4.col-md-4.col-sm-12.col-xs-12
+        h3 Create Labels with One click
+        p Shipmate offers quick and easy FedEx shipping seamlessly tied to your Salesforce customer data, page layouts and workflow.
+      div.col-lg-4.col-md-4.col-sm-12.col-xs-12
+        h3 Real-time Shipment Tracking
+        p With Salesforce Chatter, Shipmate users can get the latest tracking updates of any shipment in real time! No need to copy and paste long tracking numbers ever again.
+      div.col-lg-4.col-md-4.col-sm-12.col-xs-12
+        h3 Integrate with any object
+        p With our Custom Address Source and One Click Shipping features you can map fields from any object into the shipping wizard. 
+  div.container.home-returns
+    div.row
+      div.col-lg-6.col-md-6.col-sm-12.col-xs-12
+        h2 Email RMA Labels
+        p Shipmate for FedEx can be setup to automatically send RMA labels out to customers. There is no need to ever include an RMA label in the shipment again.
+      div.col-lg-6.col-md-6.col-sm-12.col-xs-12
+        img(src="/images/email-fedex-label.png") 
+  div.natively
+    include ../partials/natively
+  div.container.international-forms
+    include ../partials/intforms
+
+  div.footer

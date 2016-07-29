@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="53px" height="51px" viewBox="0 0 53 51" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.2 (12043) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_van</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Homepage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Deliverable-Homepage" sketch:type="MSArtboardGroup" transform="translate(-1179.000000, -724.000000)" stroke="#42BD41" stroke-width="2.22736992">
+            <g id="Features" sketch:type="MSLayerGroup" transform="translate(0.000000, 655.000000)">
+                <g id="Feature-title-3-+-Nam-porttitor-blandi-Copy-2-+-thin-0462_fast_delivery_van_shipping_transport" transform="translate(1091.000000, 70.000000)" sketch:type="MSShapeGroup">
+                    <g id="icon_van" transform="translate(88.000000, 0.000000)">
+                        <g id="Group" transform="translate(0.265975, 0.688406)">
+                            <path d="M23.4728116,7.28941576 L20.3255053,10.4156069 L15.2927643,5.41663043" id="Shape"></path>
+                            <ellipse id="Oval" cx="20.3255053" cy="10.4156069" rx="10.4441775" ry="10.3741078"></ellipse>
+                            <path d="M4.61980555,34.9477853 L4.61980555,39.2770063 L5.9768538,39.2770063 L5.9768538,43.6062274 L9.21799619,43.6062274" id="Shape"></path>
+                            <path d="M33.6417367,17.0856431 L42.7871784,17.0856431 L46.5893264,25.7072464 L50.6160107,28.428433 C51.2275091,28.8416486 51.5934697,29.5287138 51.5934697,30.2632699 L51.5934697,43.7162998 L47.1543536,43.7162998" id="Shape"></path>
+                            <path d="M4.67521352,21.5844112 L4.67521352,17.0856431 L6.8960004,17.0856431" id="Shape"></path>
+                            <path d="M17.9516763,43.7451495 L38.4200032,43.7451495" id="Shape"></path>
+                            <ellipse id="Oval" cx="42.7874018" cy="43.6062274" rx="4.36695176" ry="4.33765399"></ellipse>
+                            <ellipse id="Oval" cx="13.5849479" cy="43.6062274" rx="4.36695176" ry="4.33765399"></ellipse>
+                            <path d="M5.9768538,39.2685734 L51.566436,39.2685734" id="Shape"></path>
+                            <path d="M35.9541255,17.0856431 L35.9541255,39.1704846" id="Shape"></path>
+                            <path d="M6.98380415,30.4297101 L2.51542007,30.4297101" id="Shape"></path>
+                            <path d="M0.281228036,25.9913043 L9.21799619,25.9913043" id="Shape"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
